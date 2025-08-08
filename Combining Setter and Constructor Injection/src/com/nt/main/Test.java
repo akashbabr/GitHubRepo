@@ -13,6 +13,7 @@ public class Test
 		{
 			NotificationSystem notificationSystem = ctx.getBean("system",NotificationSystem.class);
 			notificationSystem.getNotification();
+			notificationSystem.message();
 		}
 		catch (Exception e) 
 		{

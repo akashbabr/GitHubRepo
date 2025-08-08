@@ -26,4 +26,8 @@ public class NotificationSystem
 	{
 		notificationSender.sendNotification();
 	}
+	public void message() 
+	 { 
+		 System.out.println("Hello");
+	 }
 }

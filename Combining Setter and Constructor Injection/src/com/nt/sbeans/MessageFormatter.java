@@ -12,8 +12,4 @@ public class MessageFormatter implements INotificationSender
 		System.out.println("MessageFormatter.sendNotification()");
 	}
 	
-	/*
-	 * public void message() { System.out.println("Hello"); }
-	 */
-
 }
